@@ -1,0 +1,128 @@
+
+a {
+    text-decoration: none !important;
+  }
+  
+  /* .router-link-active {
+    text-decoration: none !important;
+  } */
+
+.build-no {
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    background-color: #6cdeec;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0.3rem 0.4rem;
+    width: 2.5rem;
+    height: 2.4rem;
+    text-align: center;
+    line-height: 2.4rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /*以上三行居中不定高宽*/
+}
+.build-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.disable-block {
+    pointer-events: none;
+    /*禁止点击*/
+    background-color: #dcdcdc;
+    cursor: no-drop;
+    /*禁止提示图标*/
+}
+
+.title-block {
+    padding: 0 0.6rem;
+    border: 0.1rem solid transparent;
+    border-left-color: #6cdeec;
+    border-left-width: 0.3rem;
+    font-weight: 600;
+}
+
+.block-text {
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+}
+/*****选择房间*****/
+.corridor-text {
+    letter-spacing: 7rem;
+    color: #c4c4c4;
+    text-align: center;
+    border-bottom: 4px solid #90dfe9;
+    border-top: 4px solid #90dfe9;
+    padding: 3rem 0;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    /* width: fit-content; */
+    /* white-space: nowrap; */
+
+}
+.room-no {
+    border-left: 4px solid #0b7987;
+    border-right: 4px solid #0b7987;
+    text-align:center;
+    background: #ffffff;
+    color: #0b7987;
+    clear: both;
+}
+.bed-no {
+    background: #32ad7b;
+    color: #ffffff;
+    width: 35%;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 14%;
+    float: left;
+    margin: 0.5rem;
+}
+.room-block{
+    width: 7rem; 
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+.bed-block-even { /* 上部分*/
+    overflow: hidden; /* 解決使用浮動高度為0的bug*/
+    margin-bottom: 1rem;
+}
+.bed-block-odd { /* 下部分*/
+    overflow: hidden; /* 解決使用浮動高度為0的bug*/
+    margin-top: 1rem;
+}
+
+.xs-corridor-text {
+    text-align: center;
+    letter-spacing: 2rem;
+    text-indent:2rem; /*解决使用了letter-spacing无法居中字体*/
+    color: #c4c4c4;
+    padding: 1.5rem;
+    border-bottom: 4px solid #90dfe9;
+    margin-bottom: -1rem;
+}
+.xs-room-no {
+    border-left: 4px solid #0b7987;
+    border-right: 4px solid #0b7987;
+    letter-spacing: 0.5rem;
+    background-color: #ffffff;
+}
+.xs-bed-no {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.xs-bed-no-a {
+    background: #32ad7b;
+    color: #ffffff;
+    border-radius: 11%;
+    display: block;
+    margin: 10px;
+    line-height: 43px;
+    font-size: 2rem;
+}
+/*****选择房间end*****/
