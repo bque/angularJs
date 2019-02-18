@@ -5,13 +5,11 @@ define(['app'], function (app) {
         $stateProvider// 全部路由
             .state('home', {//路由状态
                 url: '/home',//路径
-                templateUrl: 'template/home/home.html',
-                controller: 'HomeCtrl'
+                templateUrl: 'template/home/home.html'
             })
             .state('about', {
                 url: '/about',
-                templateUrl: 'template/about/about.html',
-                controller: 'AboutCtrl'
+                templateUrl: 'template/about/about.html'
             })
     }]);
 });
